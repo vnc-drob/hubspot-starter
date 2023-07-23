@@ -1,0 +1,39 @@
+{
+  "name": "Teko",
+  "default": "Regular",
+  "fallback": "arial, sans-serif",
+  "variants": [
+    {
+      "name": "Regular",
+      "files": [
+        {
+          "file": "./teko-regular-webfont.woff",
+          "format": "woff"
+        },
+        {
+          "file": "./teko-regular-webfont.woff2",
+          "format": "woff2"
+        }
+      ],
+      "styles": {
+        "font-weight": 400
+      }
+    },
+    {
+      "name": "Bold",
+      "files": [
+        {
+          "file": "./teko-bold-webfont.woff",
+          "format": "woff"
+        },
+        {
+          "file": "./teko-bold-webfont.woff2",
+          "format": "woff2"
+        }
+      ],
+      "styles": {
+        "font-weight": "bold"
+      }
+    }
+  ]
+}

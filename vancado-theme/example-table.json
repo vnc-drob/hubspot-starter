@@ -1,0 +1,78 @@
+{
+    "name": "store_locations",
+    "useForPages": true,
+    "label": "Store locations",
+    "allowChildTables": false,
+    "allowPublicApiAccess": true,
+   "dynamicMetaTags": { "DESCRIPTION": 3, "FEATURED_IMAGE_URL": 7 },
+    "enableChildTablePages": false,
+    "columns": [
+      { "name": "name", "label": "Name", "type": "TEXT" },
+      {
+        "name": "physical_location",
+        "label": "Physical Location",
+        "type": "LOCATION"
+      },
+      { "name": "street_address", "label": "Street address", "type": "TEXT" },
+      { "name": "city", "label": "City", "type": "TEXT" },
+      {
+        "name": "state",
+        "label": "State",
+        "options": [
+          { "id": 1, "name": "Wisconsin", "type": "option", "order": null },
+          { "id": 2, "name": "Minnesota", "type": "option", "order": null },
+          { "id": 3, "name": "Maine", "type": "option", "order": null },
+          { "id": 4, "name": "New York", "type": "option", "order": null },
+          { "id": 5, "name": "Massachusetts ", "type": "option", "order": null },
+          { "id": 6, "name": "Mississippi", "type": "option", "order": null },
+          { "id": 7, "name": "Arkansas", "type": "option", "order": null },
+          { "id": 8, "name": "Texas", "type": "option", "order": null },
+          { "id": 9, "name": "Florida", "type": "option", "order": null },
+          { "id": 10, "name": "South Dakota", "type": "option", "order": null },
+          { "id": 11, "name": "North Dakota", "type": "option", "order": null },
+          { "id": 12, "name": "n/a", "type": "option", "order": null }
+        ],
+        "type": "SELECT",
+        "optionCount": 12
+      },
+      { "name": "phone_number", "label": "Phone Number", "type": "TEXT" },
+      { "name": "photo", "label": "Store Photo", "type": "IMAGE" }
+    
+    ],
+    "rows": [
+      {
+        "path": "super_store",
+        "name": "Super Store",
+        "isSoftEditable": false,
+        "values": {
+          "name": "Super Store",
+          "physical_location": {
+            "lat": 43.01667,
+            "long": -88.00608,
+            "type": "location"
+          },
+          "street_address": "1400 75th Greenfield Ave",
+          "city": "West Allis",
+          "state": { "id": 1, "name": "Wisconsin", "type": "option", "order": 0 },
+          "phone_number": "(123) 456-7890"
+        }
+      },
+      {
+        "path": "store_123",
+        "name": "Store #123",
+        "isSoftEditable": false,
+        "values": {
+          "name": "Store #123",
+          "physical_location": {
+            "lat": 32.094803,
+            "long": -166.85889,
+            "type": "location"
+          },
+          "street_address": "Pacific Ocean",
+          "city": "at sea",
+          "state": { "id": 12, "name": "n/a", "type": "option", "order": 11 },
+          "phone_number": "(123) 456-7891"
+        }
+      }
+    ]
+   }

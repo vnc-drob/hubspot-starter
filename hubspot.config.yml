@@ -1,0 +1,14 @@
+defaultPortal: sandbox
+portals:
+  - name: sandbox
+    portalId: 140450665
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CMi31_mXMRIRAA0AQAAA4C0DQAJYAgEAAMAY6bb8QiDSp9UZKO7pDDIUNHjERycHVQpzkL4MZizoaXYqvlo6OAAABEEAAAB4AAAAAAAAAAAAgAAAAAAABAAAwAcA_v8xPGAQBgBEAGBA_BgGABAgAwAAAAAAMAIDQhTIp5XTpNGNVgzprJDvRp9mcCPgaUoDZXUxUgBaAA
+        expiresAt: '2023-07-22T20:06:23.453Z'
+    personalAccessKey: >-
+      CiRldTEtZDUzNC1jOGMzLTRhYmItODljZS1kMjkzNjhkNGJiMDkQ6bb8QhjSp9UZKhkABeaRgi5EHuMRSfBSjfrwhrOO8cJpoCdwSgNldTE
+    sandboxAccountType: null
+    parentAccountId: null

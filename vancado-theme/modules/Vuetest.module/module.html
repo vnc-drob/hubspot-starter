@@ -1,0 +1,9 @@
+{#{ require_js("https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js", "head") }#}
+{{ require_js("https://unpkg.com/vue@3/dist/vue.global.js", "head") }}
+
+{# raw prevents code within it from being evaluated as HubL #}
+{% raw %}
+<div id="app">
+  {{ message }}
+</div>
+{% endraw %}
