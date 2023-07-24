@@ -1,0 +1,4 @@
+hs fetch vancado-theme vancado-theme
+hs fetch /vancado-theme/modules/Testimonial.module
+hs upload vancado-theme vancado-theme
+hs watch vancado-theme vancado-theme --initial-upload
